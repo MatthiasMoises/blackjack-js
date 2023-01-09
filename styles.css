@@ -1,0 +1,106 @@
+body {
+  font-family: 'Casino', sans-serif;
+}
+
+#game {
+  display: none;
+  background-color: #015536;
+}
+
+#status {
+  width: 100%;
+  height: auto;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #282828;
+  text-align: center;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 15px auto;
+  padding: 10px;
+}
+
+#player-deck,
+#dealer-deck {
+  width: 100%;
+  height: 170px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 5px;
+  background-color: #38120d;
+}
+
+#controls {
+  width: 350px;
+  margin: 10px auto;
+  padding: 8px 0;
+  text-align: center;
+}
+
+#game-header {
+  text-align: center;
+}
+
+#game-header h1 {
+  font-family: 'Casino 3D Marquee', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+}
+
+.btn {
+  font-family: 'Casino Flat', sans-serif;
+  font-size: 25px;
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 250px;
+  height: 50;
+  margin: 10px auto;
+}
+
+.btn:hover {
+  background-color: darkorange;
+}
+
+.btn.disabled {
+  background-color: darkslategrey;
+  pointer-events: none;
+}
+
+.deck .card {
+    border: solid 1px #aaa;
+    border-radius: 9px;
+    width: 95px;
+    height: 150px;
+    float:left;
+    background-color: white;
+    padding: 3px 3px 3px 3px;
+    margin: 5px;
+}
+
+.card .value {
+    font-size: 15pt;
+    font-family: sans-serif;
+}
+
+.card .suit {
+	background-image: url('images/suits.png');
+	height: 100px;
+	width: 90px;
+}
+
+.card .diamonds {
+	background-position-y: 100px;
+}
+
+.card .hearts {
+	background-position-x: 90px;
+}
+
+.card .clubs {
+	background-position-x: 90px;
+	background-position-y: 100px;
+}
